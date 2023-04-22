@@ -1,0 +1,40 @@
+{
+    "name": "loper/amp-psr7-client",
+    "description": "Amp PHP PSR7 client adapter.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Loper\\AmpPsr7Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "loper",
+            "email": "bizrenay@gmail.com"
+        },
+        {
+            "name": "Niklas Keller",
+            "email": "me@kelunik.com"
+        },
+        {
+            "name": "Edward Surov",
+            "email": "zoohie@gmail.com"
+        },
+        {
+            "name": "Sean Nessworthy",
+            "email": "sean@nessworthy.me",
+            "homepage": "https://nessworthy.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "amphp/amp": "^3.0",
+        "php": ">=8.1",
+        "amphp/byte-stream": "^2.0",
+        "amphp/http-client": "5.x-dev",
+        "psr/http-factory": "1.0.x-dev",
+        "nyholm/psr7": "^1.7"
+    }
+}
