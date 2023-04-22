@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2d50bddc5a5b7ae354504387ce2f64a",
+    "content-hash": "60b30b4c274a90da8ae4689cac6a10a2",
     "packages": [
         {
             "name": "amphp/amp",
@@ -457,7 +457,7 @@
         },
         {
             "name": "amphp/http-client",
-            "version": "5.x-dev",
+            "version": "v5.0.0-beta.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/http-client.git",
@@ -499,7 +499,6 @@
                 "ext-json": "Required for logging HTTP archives",
                 "ext-zlib": "Allows using compression for response bodies."
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1559,7 +1558,7 @@
         },
         {
             "name": "psr/http-factory",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
@@ -1575,7 +1574,6 @@
                 "php": ">=7.0.0",
                 "psr/http-message": "^1.0 || ^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1742,10 +1740,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "amphp/http-client": 20,
-        "psr/http-factory": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
